@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DBMS — Faculty</title>
+  <link rel="stylesheet" href="css/portal.css">
+</head>
+<body data-mode="faculty">
+  <header>
+    <h1>DBMS — Faculty portal</h1>
+    <p class="sub">Student form and response links. Not confidential on a public repo.</p>
+    <nav>
+      <a href="../faculty/index.md">Markdown dashboard</a>
+      <a href="student.html">Student view</a>
+    </nav>
+  </header>
+  <main>
+    <p class="note">Paste URLs in <code>config/submission-links.json</code>. Empty strings show as not configured.</p>
+    <p id="config-error" class="muted"></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Milestone</th>
+          <th>Due</th>
+          <th>Status</th>
+          <th>Student form</th>
+          <th>Responses</th>
+          <th>Event</th>
+        </tr>
+      </thead>
+      <tbody id="fac-body"></tbody>
+    </table>
+  </main>
+  <script src="js/portal.js"></script>
+</body>
+</html>

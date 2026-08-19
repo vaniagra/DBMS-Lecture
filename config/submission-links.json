@@ -1,0 +1,17 @@
+{
+  "_comment": "Paste real Google Form / Microsoft Form URLs. Leave empty until configured. Do not invent live links. Student portal uses *_student only. Faculty portal uses both.",
+  "milestone_0_student": "",
+  "milestone_0_faculty": "",
+  "milestone_1_student": "",
+  "milestone_1_faculty": "",
+  "milestone_2_student": "",
+  "milestone_2_faculty": "",
+  "milestone_3_student": "",
+  "milestone_3_faculty": "",
+  "milestone_4_student": "",
+  "milestone_4_faculty": "",
+  "milestone_5_student": "",
+  "milestone_5_faculty": "",
+  "final_student": "",
+  "final_faculty": ""
+}

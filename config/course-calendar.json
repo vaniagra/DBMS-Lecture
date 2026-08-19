@@ -1,0 +1,74 @@
+{
+  "timezone": "Asia/Kolkata",
+  "due_soon_hours": 48,
+  "teaching_start": "2026-08-17",
+  "milestones": [
+    {
+      "id": "m0",
+      "title": "Milestone 0 — Team Registration",
+      "opens": "2026-08-25T00:00:00+05:30",
+      "due": "2026-08-29T23:59:00+05:30",
+      "event": null,
+      "student_key": "milestone_0_student",
+      "faculty_key": "milestone_0_faculty"
+    },
+    {
+      "id": "m1",
+      "title": "Milestone 1 — Requirement Analysis",
+      "opens": "2026-08-25T00:00:00+05:30",
+      "due": "2026-09-08T23:59:00+05:30",
+      "event": "2026-09-10",
+      "student_key": "milestone_1_student",
+      "faculty_key": "milestone_1_faculty"
+    },
+    {
+      "id": "m2",
+      "title": "Milestone 2 — ER Model and Database Design",
+      "opens": "2026-09-11T00:00:00+05:30",
+      "due": "2026-09-22T23:59:00+05:30",
+      "event": "2026-09-24",
+      "student_key": "milestone_2_student",
+      "faculty_key": "milestone_2_faculty"
+    },
+    {
+      "id": "m3",
+      "title": "Milestone 3 — Relational Model and Normalization",
+      "opens": "2026-09-25T00:00:00+05:30",
+      "due": "2026-10-06T23:59:00+05:30",
+      "event": "2026-10-08",
+      "student_key": "milestone_3_student",
+      "faculty_key": "milestone_3_faculty"
+    },
+    {
+      "id": "m4",
+      "title": "Milestone 4 — SQL Implementation",
+      "opens": "2026-10-09T00:00:00+05:30",
+      "due": "2026-10-20T23:59:00+05:30",
+      "event": "2026-10-22",
+      "student_key": "milestone_4_student",
+      "faculty_key": "milestone_4_faculty"
+    },
+    {
+      "id": "m5",
+      "title": "Milestone 5 — Transactions, Concurrency and Optimization",
+      "opens": "2026-10-23T00:00:00+05:30",
+      "due": "2026-10-30T23:59:00+05:30",
+      "event": "2026-11-02",
+      "student_key": "milestone_5_student",
+      "faculty_key": "milestone_5_faculty"
+    },
+    {
+      "id": "final",
+      "title": "Final Project Package",
+      "opens": "2026-10-31T00:00:00+05:30",
+      "due": "2026-11-06T23:59:00+05:30",
+      "event": null,
+      "student_key": "final_student",
+      "faculty_key": "final_faculty"
+    }
+  ],
+  "final_presentations": {
+    "start": "2026-11-07",
+    "end": "2026-11-09"
+  }
+}
