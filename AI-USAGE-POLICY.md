@@ -68,7 +68,7 @@ If a named tool is unavailable in the lab, use any equivalent assistant and stil
 
 ## Required declaration
 
-Every graded SQL or schema submission from Milestone 4 onward must include [pbl/student/AI-USAGE-DECLARATION.md](pbl/student/AI-USAGE-DECLARATION.md):
+Every graded SQL or schema submission from **S2** onward must include [pbl/templates/ai-usage-note.md](pbl/templates/ai-usage-note.md) (team repo: `AI-USAGE-NOTE.md`). Legacy filename `AI-USAGE-DECLARATION.md` is also accepted.
 
 ```text
 Tool used

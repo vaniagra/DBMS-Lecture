@@ -3,34 +3,48 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DBMS — Faculty</title>
+  <title>DBMS — PBL Faculty Dashboard</title>
   <link rel="stylesheet" href="css/portal.css">
 </head>
 <body data-mode="faculty">
   <header>
-    <h1>DBMS — Faculty portal</h1>
-    <p class="sub">Student form and response links. Not confidential on a public repo.</p>
+    <h1>DBMS PBL — Faculty Dashboard</h1>
+    <p class="sub">Student forms + response links · Not confidential on a public repo</p>
     <nav>
       <a href="../faculty/index.md">Markdown dashboard</a>
       <a href="student.html">Student view</a>
+      <a href="../pbl/faculty/WEEKLY-CHECKPOINT.md">Weekly checkpoints</a>
     </nav>
   </header>
   <main>
-    <p class="note">Paste URLs in <code>config/submission-links.json</code>. Empty strings show as not configured.</p>
+    <p class="note">Paste URLs in <code>config/submission-links.json</code> (<code>s1_student</code> … <code>s7_faculty</code>). GitHub is not an authentication system — see <a href="../ACCESS-MODEL.md">ACCESS-MODEL.md</a>.</p>
     <p id="config-error" class="muted"></p>
+
+    <h2>Stage submissions</h2>
     <table>
       <thead>
         <tr>
-          <th>Milestone</th>
+          <th>Stage</th>
           <th>Due</th>
           <th>Status</th>
           <th>Student form</th>
           <th>Responses</th>
+          <th>Rubric</th>
           <th>Event</th>
         </tr>
       </thead>
       <tbody id="fac-body"></tbody>
     </table>
+
+    <h2>Faculty resources</h2>
+    <ul class="link-list">
+      <li><a href="../pbl/rubrics/faculty-rubric.md">Evaluation rubric</a></li>
+      <li><a href="../pbl/projects/team-allocation.md">Team allocation</a></li>
+      <li><a href="../faculty/tracking/marks-sheet.md">Marks sheet</a></li>
+      <li><a href="../faculty/evaluation/plagiarism-review.md">Plagiarism review</a></li>
+      <li><a href="../assessments/viva.md">Viva bank</a></li>
+      <li><a href="../pbl/submissions/SUBMISSION-LINKS.md">Submission link reference</a></li>
+    </ul>
   </main>
   <script src="js/portal.js"></script>
 </body>

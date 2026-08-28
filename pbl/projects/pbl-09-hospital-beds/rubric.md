@@ -1,3 +1,17 @@
-# Rubric notes — PBL 09
+﻿# Project evidence rubric notes
 
-Unacceptable: `bed_id` global 1..n with duplicates across wards and no uniqueness; transfer as two unlinked updates.
+**Does not change global marks.** See [../../rubrics/student-rubric.md](../../rubrics/student-rubric.md).
+
+## Expected engineering evidence
+
+- Bed transfer atomicity; partial unique on occupancy (S4)
+- Minimum 8–10 entities with documented PK/FK
+- Web, CLI, or REST integration (S3)
+- Parameterized queries; RBAC (S4)
+- Quantified optimization (S5) — not verbal claims
+
+## Unacceptable
+
+- Generic CRUD with no concurrency story
+- `SELECT *` counted as business queries
+- Security section without injection test results

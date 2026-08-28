@@ -2,73 +2,182 @@
   "timezone": "Asia/Kolkata",
   "due_soon_hours": 48,
   "teaching_start": "2026-08-17",
-  "milestones": [
+  "pbl": {
+    "title": "Design & Development of a Real-World Database-Driven Application",
+    "duration_weeks": 10,
+    "team_size": "4–5",
+    "total_marks": 100,
+    "bonus_cloud_max": 5
+  },
+  "stages": [
     {
-      "id": "m0",
-      "title": "Milestone 0 — Team Registration",
-      "opens": "2026-08-25T00:00:00+05:30",
-      "due": "2026-08-29T23:59:00+05:30",
-      "event": null,
-      "student_key": "milestone_0_student",
-      "faculty_key": "milestone_0_faculty"
-    },
-    {
-      "id": "m1",
-      "title": "Milestone 1 — Requirement Analysis",
+      "id": "s1",
+      "title": "S1 — Requirement Analysis & SRS",
+      "weight": 10,
       "opens": "2026-08-25T00:00:00+05:30",
       "due": "2026-09-08T23:59:00+05:30",
       "event": "2026-09-10",
-      "student_key": "milestone_1_student",
-      "faculty_key": "milestone_1_faculty"
+      "week": 2,
+      "student_key": "s1_student",
+      "faculty_key": "s1_faculty",
+      "deliverables": [
+        "Problem Statement",
+        "Team Charter",
+        "Stakeholder Analysis",
+        "SRS Document (PDF/DOCX)"
+      ],
+      "template": "../pbl/templates/srs-template.md",
+      "guidelines": "../pbl/student/SUBMISSION-INSTRUCTIONS.md#s1"
     },
     {
-      "id": "m2",
-      "title": "Milestone 2 — ER Model and Database Design",
+      "id": "s2",
+      "title": "S2 — ER Design, Normalization & DDL",
+      "weight": 15,
       "opens": "2026-09-11T00:00:00+05:30",
-      "due": "2026-09-22T23:59:00+05:30",
-      "event": "2026-09-24",
-      "student_key": "milestone_2_student",
-      "faculty_key": "milestone_2_faculty"
-    },
-    {
-      "id": "m3",
-      "title": "Milestone 3 — Relational Model and Normalization",
-      "opens": "2026-09-25T00:00:00+05:30",
       "due": "2026-10-06T23:59:00+05:30",
       "event": "2026-10-08",
-      "student_key": "milestone_3_student",
-      "faculty_key": "milestone_3_faculty"
+      "week": 4,
+      "checkpoint": "2026-09-24",
+      "student_key": "s2_student",
+      "faculty_key": "s2_faculty",
+      "deliverables": [
+        "ER/EER Diagram (PDF)",
+        "Functional Dependencies",
+        "Normalization proof (1NF–BCNF)",
+        "Relational Schema",
+        "DDL script (.sql)"
+      ],
+      "template": "../pbl/templates/normalization-template.md",
+      "guidelines": "../pbl/student/SUBMISSION-INSTRUCTIONS.md#s2"
     },
     {
-      "id": "m4",
-      "title": "Milestone 4 — SQL Implementation",
+      "id": "s3",
+      "title": "S3 — Working Prototype",
+      "weight": 20,
       "opens": "2026-10-09T00:00:00+05:30",
       "due": "2026-10-20T23:59:00+05:30",
       "event": "2026-10-22",
-      "student_key": "milestone_4_student",
-      "faculty_key": "milestone_4_faculty"
+      "week": 6,
+      "student_key": "s3_student",
+      "faculty_key": "s3_faculty",
+      "deliverables": [
+        "GitHub repository URL",
+        "schema.sql + seed.sql",
+        "CRUD via Web/CLI/REST API",
+        "Demo video or screen recording",
+        "Meaningful commit history"
+      ],
+      "template": "../pbl/templates/contribution-log.md",
+      "guidelines": "../pbl/student/SUBMISSION-INSTRUCTIONS.md#s3"
     },
     {
-      "id": "m5",
-      "title": "Milestone 5 — Transactions, Concurrency and Optimization",
-      "opens": "2026-10-23T00:00:00+05:30",
+      "id": "s4",
+      "title": "S4 — Advanced DB Engineering & Security",
+      "weight": 15,
+      "opens": "2026-10-21T00:00:00+05:30",
       "due": "2026-10-30T23:59:00+05:30",
       "event": "2026-11-02",
-      "student_key": "milestone_5_student",
-      "faculty_key": "milestone_5_faculty"
+      "week": 8,
+      "student_key": "s4_student",
+      "faculty_key": "s4_faculty",
+      "deliverables": [
+        "views.sql",
+        "procedures.sql / functions",
+        "triggers.sql",
+        "transactions.sql",
+        "ACID + concurrency scenarios",
+        "RBAC + SQL injection defense",
+        "Security Report (PDF)"
+      ],
+      "template": "../pbl/templates/security-audit-template.md",
+      "guidelines": "../pbl/student/SECURITY-AUDIT-GUIDE.md"
     },
     {
-      "id": "final",
-      "title": "Final Project Package",
+      "id": "s5",
+      "title": "S5 — Testing, Benchmarking & Optimization",
+      "weight": 15,
+      "opens": "2026-10-23T00:00:00+05:30",
+      "due": "2026-11-04T23:59:00+05:30",
+      "event": null,
+      "week": 9,
+      "student_key": "s5_student",
+      "faculty_key": "s5_faculty",
+      "deliverables": [
+        "Test log",
+        "Edge and failure cases",
+        "EXPLAIN / EXPLAIN ANALYZE evidence",
+        "Before/after timings",
+        "indexes.sql",
+        "Optimization Report (PDF)"
+      ],
+      "template": "../pbl/templates/optimization-report-template.md",
+      "guidelines": "../pbl/student/SUBMISSION-INSTRUCTIONS.md#s5"
+    },
+    {
+      "id": "s6",
+      "title": "S6 — Final Report, Demo & Viva",
+      "weight": 15,
       "opens": "2026-10-31T00:00:00+05:30",
       "due": "2026-11-06T23:59:00+05:30",
+      "event": "2026-11-07",
+      "week": 10,
+      "student_key": "s6_student",
+      "faculty_key": "s6_faculty",
+      "deliverables": [
+        "Consolidated Final Report (PDF)",
+        "Complete GitHub project",
+        "Live demo",
+        "Viva (every member)",
+        "Reflection + lessons learned"
+      ],
+      "template": "../pbl/templates/final-report-outline.md",
+      "guidelines": "../pbl/student/PRESENTATION-GUIDELINES.md"
+    },
+    {
+      "id": "s7",
+      "title": "S7 — Peer Evaluation & Individual Contribution",
+      "weight": 10,
+      "opens": "2026-08-25T00:00:00+05:30",
+      "due": "2026-11-09T23:59:00+05:30",
       "event": null,
-      "student_key": "final_student",
-      "faculty_key": "final_faculty"
+      "week": "continuous",
+      "continuous": true,
+      "student_key": "s7_student",
+      "faculty_key": "s7_faculty",
+      "deliverables": [
+        "CONTRIBUTIONS.md",
+        "Peer ratings",
+        "Per-stage reflections",
+        "Evidence (commits, docs)"
+      ],
+      "template": "../pbl/templates/contribution-log.md",
+      "guidelines": "../pbl/student/SUBMISSION-INSTRUCTIONS.md#s7"
     }
+  ],
+  "weekly_plan": [
+    { "week": 1, "phase": "Requirement Analysis", "deliverable": "Problem Statement + Team Charter" },
+    { "week": 2, "phase": "Requirement Analysis", "deliverable": "SRS v1 (S1 due 08 Sep)" },
+    { "week": 3, "phase": "Conceptual Design", "deliverable": "ER/EER + Assumption Log (checkpoint 24 Sep)" },
+    { "week": 4, "phase": "Logical Design", "deliverable": "Normalized Schema + DDL (S2 due 06 Oct)" },
+    { "week": 5, "phase": "Implementation", "deliverable": "Working DB + Query Set" },
+    { "week": 6, "phase": "Implementation", "deliverable": "Integrated Prototype (S3 due 20 Oct)" },
+    { "week": 7, "phase": "Advanced DB", "deliverable": "Views / Procedures / Triggers / Transactions" },
+    { "week": 8, "phase": "Security", "deliverable": "RBAC + Red-Team Audit + Security Report (S4 due 30 Oct)" },
+    { "week": 9, "phase": "Optimization", "deliverable": "Optimization Report + Test Log (S5 due 04 Nov)" },
+    { "week": 10, "phase": "Final Delivery", "deliverable": "Final Report + Demo + Viva (S6 due 06 Nov; S7 by 09 Nov)" }
   ],
   "final_presentations": {
     "start": "2026-11-07",
     "end": "2026-11-09"
+  },
+  "legacy_milestone_map": {
+    "m0": "Team registration → included in S1 Team Charter",
+    "m1": "S1",
+    "m2": "S2 (ER checkpoint 24 Sep)",
+    "m3": "S2",
+    "m4": "S3",
+    "m5": "S4 + S5",
+    "final": "S6",
+    "viva": "S6 + S7"
   }
 }

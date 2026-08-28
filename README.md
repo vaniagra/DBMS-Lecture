@@ -152,19 +152,41 @@ This is a 2-0-0 theory course. `lab.md` files are in-class or take-home practice
 
 ---
 
-## PBL
+## PBL — Project-Based Learning
 
-One unique data-centric project per team. Not Library Management. Not Student Management.
+**Design & Development of a Real-World Database-Driven Application**
 
-| Item | Link |
+| | |
 | --- | --- |
+| Duration | 10 weeks |
+| Team size | **4–5 students** |
+| Weightage | **100 marks** (+ optional 5 cloud bonus) |
+
+```mermaid
+flowchart LR
+    A[Requirements] --> B[ER/EER]
+    B --> C[Schema + NF]
+    C --> D[Prototype]
+    D --> E[Advanced DB]
+    E --> F[Security]
+    F --> G[Optimization]
+    G --> H[Demo & Viva]
+```
+
+| Resource | Link |
+| --- | --- |
+| PBL overview | [pbl/README.md](pbl/README.md) |
 | Student guidelines | [PBL-GUIDELINES.md](PBL-GUIDELINES.md) |
 | Project bank | [pbl/projects/project-bank.md](pbl/projects/project-bank.md) |
-| Team allocation | [pbl/projects/team-allocation.md](pbl/projects/team-allocation.md) |
-| Schedule | [SUBMISSION-SCHEDULE.md](SUBMISSION-SCHEDULE.md) |
-| Student rubric | [pbl/rubrics/student-rubric.md](pbl/rubrics/student-rubric.md) |
+| 10-week timeline | [pbl/TIMELINE.md](pbl/TIMELINE.md) |
+| Submission schedule | [SUBMISSION-SCHEDULE.md](SUBMISSION-SCHEDULE.md) |
+| Rubrics | [pbl/rubrics/student-rubric.md](pbl/rubrics/student-rubric.md) · [faculty](pbl/rubrics/faculty-rubric.md) |
+| Templates | [pbl/templates/](pbl/templates/) |
+| CO mapping | [pbl/CO-MAPPING.md](pbl/CO-MAPPING.md) |
+| Student portal | [student/index.md](student/index.md) · [portal/student.html](portal/student.html) |
+| Faculty portal | [faculty/index.md](faculty/index.md) · [portal/faculty.html](portal/faculty.html) |
 
-First submission opens **25/08/2026**. Final package due **06/11/2026**. Presentations **07/11/2026–09/11/2026**.
+**S1** opens **25 Aug 2026**. **S6** final due **06 Nov 2026**. Demo/viva **07–09 Nov 2026**.
 
 ---
 

@@ -2,9 +2,7 @@
 
 **CSL0311[T] · 3rd Semester · Theory 2-0-0**
 
-This page is the student dashboard. Faculty evaluation notes and answer keys are not linked here.
-
-[HTML version](../portal/student.html) (status Open / Due Soon / Closed is computed there)
+[HTML PBL dashboard](../portal/student.html) — stages, deadlines, submit buttons
 
 ---
 
@@ -14,28 +12,35 @@ This page is the student dashboard. Faculty evaluation notes and answer keys are
 | --- | --- |
 | Course material | [curriculum-overview.md](../curriculum-overview.md) |
 | Outcomes | [COURSE-OUTCOMES.md](../COURSE-OUTCOMES.md) |
-| PBL rules | [PBL-GUIDELINES.md](../PBL-GUIDELINES.md) |
-| My project | Faculty fills [pbl/projects/team-allocation.md](../pbl/projects/team-allocation.md) — then open only that folder under [pbl/projects/](../pbl/projects/project-bank.md) |
-| Schedule | [SUBMISSION-SCHEDULE.md](../SUBMISSION-SCHEDULE.md) |
-| Submit | [submit.md](submit.md) |
-| Presentations | [pbl/student/PRESENTATION-GUIDELINES.md](../pbl/student/PRESENTATION-GUIDELINES.md) |
+| **PBL home** | [pbl/README.md](../pbl/README.md) |
+| PBL guidelines | [PBL-GUIDELINES.md](../PBL-GUIDELINES.md) |
+| 10-week timeline | [pbl/TIMELINE.md](../pbl/TIMELINE.md) |
+| My project | [pbl/projects/team-allocation.md](../pbl/projects/team-allocation.md) → [project bank](../pbl/projects/project-bank.md) |
+| Submit | [submit.md](submit.md) · [portal](../portal/student.html) |
 | Rubric | [pbl/rubrics/student-rubric.md](../pbl/rubrics/student-rubric.md) |
-| Resources | [resources/learning-resources.md](../resources/learning-resources.md) |
+| Templates | [templates.md](templates.md) |
+| Presentations | [pbl/student/PRESENTATION-GUIDELINES.md](../pbl/student/PRESENTATION-GUIDELINES.md) |
+| Security red-team | [pbl/student/SECURITY-AUDIT-GUIDE.md](../pbl/student/SECURITY-AUDIT-GUIDE.md) |
 | FAQ | [FAQ.md](FAQ.md) |
-| Templates | [pbl/student/templates/](templates.md) |
 
 ---
 
-## Next milestone
+## PBL at a glance
 
-See [submit.md](submit.md). First form opens **25 August 2026**. Final zip **06 November 2026**. Presentations **07–09 November 2026**.
+| | |
+| --- | --- |
+| Title | Design & Development of a Real-World Database-Driven Application |
+| Duration | 10 weeks |
+| Team size | **4–5** |
+| Marks | **100** (+ optional 5 cloud bonus) |
+| S1 due | 08 Sep 2026 |
+| S6 final due | **06 Nov 2026** |
+| Demo / viva | **07–09 Nov 2026** |
+
+Schedule: [SUBMISSION-SCHEDULE.md](../SUBMISSION-SCHEDULE.md)
 
 ---
 
-## How to study a lecture
+## Lectures
 
-Each session folder (example `lectures/week-01-database-foundations/S01-files-vs-dbms/`):
-
-1. `student-reference.md`
-2. `lab.md`
-3. Ask in class from the exit question — not from a generated essay
+Each session: `student-reference.md` → `lab.md` in [lectures/](../lectures/)

@@ -1,15 +1,17 @@
-# Milestone spine (all teams)
+# PBL Milestones (global S1–S7)
 
-Full calendar: [../../SUBMISSION-SCHEDULE.md](../../SUBMISSION-SCHEDULE.md)
+All teams share this spine. Per-project constraints: [../projects/project-bank.md](../projects/project-bank.md).
 
-| MS | You submit | Lecture you must already have |
-| --- | --- | --- |
-| 0 | Team + project + roles | S01–S03 |
-| 1 | Requirements, entities | S01–S07 |
-| 2 | ER | S03–S06 |
-| 3 | Mapping + NF proof | S09, S13–S15 |
-| 4 | SQL ≥20 | S17–S19 |
-| 5 | Tx, graph, EXPLAIN | S21–S27 |
-| F | Whole system | All |
+| Stage | Marks | Due 2026 |
+| --- | ---: | --- |
+| S1 SRS + Team Charter | 10 | 08 Sep |
+| S2 ER + NF + DDL | 15 | 06 Oct (ER checkpoint 24 Sep) |
+| S3 Prototype + GitHub | 20 | 20 Oct |
+| S4 Advanced DB + Security | 15 | 30 Oct |
+| S5 Test + Optimization | 15 | 04 Nov |
+| S6 Final + Viva | 15 | 06 Nov |
+| S7 Contribution | 10 | 09 Nov |
 
-Per-project emphasis is in each `pbl/projects/pbl-XX-*/milestones.md`.
+Details: [SUBMISSION-INSTRUCTIONS.md](SUBMISSION-INSTRUCTIONS.md) · [../TIMELINE.md](../TIMELINE.md)
+
+Legacy names Milestone 0–5 map to these stages — see [../../SUBMISSION-SCHEDULE.md](../../SUBMISSION-SCHEDULE.md).

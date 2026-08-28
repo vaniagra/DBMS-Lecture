@@ -1,39 +1,58 @@
-# Submission Schedule
+# Submission Schedule — PBL Stages S1–S7
 
-All times are **IST**. The portal shows Upcoming / Open / Due Soon / Closed from [config/course-calendar.json](config/course-calendar.json).
+All times **IST (Asia/Kolkata)**. Deadlines default to **23:59 IST** unless noted.
 
-This repository **does not** close a Google or Microsoft Form. Faculty must set “stop accepting responses” on the form to the due instant.
+Portal status (Upcoming / Open / Due Soon / Closed) is computed from [config/course-calendar.json](config/course-calendar.json).
 
-Paste real URLs into [config/submission-links.json](config/submission-links.json). Empty strings mean “form not configured”. Placeholders look like `[SUBMISSION_2_FORM_URL]` in Markdown.
+Forms must be configured in [config/submission-links.json](config/submission-links.json). Empty strings → “Form not configured”. **Do not invent URLs.**
+
+This repository does not close forms. Set “stop accepting responses” in Google/Microsoft Forms.
 
 ---
 
-## Calendar
+## Stage calendar (preserves semester timeline)
 
-| Milestone | Opens | Due | Event | Student form key |
+| Stage | Opens | Due | Event | Student key |
 | --- | --- | --- | --- | --- |
-| 0 Team registration | 25 Aug 2026 | 29 Aug 2026 | none | `milestone_0_student` |
-| 1 Requirements | 25 Aug 2026 | 08 Sep 2026 | Present 10 Sep, 5–7 min | `milestone_1_student` |
-| 2 ER design | 11 Sep 2026 | 22 Sep 2026 | Design review 24 Sep | `milestone_2_student` |
-| 3 Normalization | 25 Sep 2026 | 06 Oct 2026 | Present 08 Oct | `milestone_3_student` |
-| 4 SQL | 09 Oct 2026 | 20 Oct 2026 | Live demo 22 Oct | `milestone_4_student` |
-| 5 Transactions & optimization | 23 Oct 2026 | 30 Oct 2026 | Technical review 02 Nov | `milestone_5_student` |
-| Final package | 31 Oct 2026 | **06 Nov 2026** | before 10 Nov | `final_student` |
-| Final presentation | — | **07–09 Nov 2026** | 10–12 min + 5 min viva | allocated in class |
+| **S1** Requirement Analysis & SRS | 25 Aug 2026 | **08 Sep 2026** | Present 10 Sep | `s1_student` |
+| **S2** ER, Normalization & DDL | 11 Sep 2026 | **06 Oct 2026** | ER checkpoint **24 Sep** · Present 08 Oct | `s2_student` |
+| **S3** Working Prototype | 09 Oct 2026 | **20 Oct 2026** | Live demo 22 Oct | `s3_student` |
+| **S4** Advanced DB & Security | 21 Oct 2026 | **30 Oct 2026** | Technical review 02 Nov | `s4_student` |
+| **S5** Testing & Optimization | 23 Oct 2026 | **04 Nov 2026** | — | `s5_student` |
+| **S6** Final Report & Viva | 31 Oct 2026 | **06 Nov 2026** | Demo **07–09 Nov** | `s6_student` |
+| **S7** Peer / Contribution | 25 Aug 2026 | **09 Nov 2026** | Continuous | `s7_student` |
+
+**S6 final package is due before 10 November 2026** as required by the institution.
+
+Optional cloud bonus: `cloud_bonus_student` (separate +5 marks).
+
+---
+
+## Legacy milestone mapping
+
+| Old | New |
+| --- | --- |
+| Milestone 0 Team registration | S1 Team Charter |
+| Milestone 1 Requirements | S1 SRS |
+| Milestone 2 ER | S2 (checkpoint 24 Sep) |
+| Milestone 3 Normalization | S2 |
+| Milestone 4 SQL | S3 |
+| Milestone 5 Tx / optimization | S4 + S5 |
+| Final package | S6 |
+| Presentation / viva | S6 + S7 |
 
 ---
 
 ## Naming
 
 ```text
-DBMS_PBL_Team07_M0.zip
-DBMS_PBL_Team07_M1.zip
+DBMS_PBL_Team07_S1.zip
+DBMS_PBL_Team07_S2.zip
 ...
-DBMS_PBL_Team07_FINAL.zip
+DBMS_PBL_Team07_S6.zip
 ```
 
-GitHub tags: `milestone-0` … `milestone-5`, `final`.
+Git tags: `s1-requirements` · `s2-design` · `s3-prototype` · `s4-advanced-db` · `s5-optimization` · `final`
 
-Per-milestone file lists: [pbl/student/SUBMISSION-INSTRUCTIONS.md](pbl/student/SUBMISSION-INSTRUCTIONS.md)
-
-Student link table: [pbl/submissions/SUBMISSION-LINKS.md](pbl/submissions/SUBMISSION-LINKS.md)
+Instructions: [pbl/student/SUBMISSION-INSTRUCTIONS.md](pbl/student/SUBMISSION-INSTRUCTIONS.md)  
+Link table: [pbl/submissions/SUBMISSION-LINKS.md](pbl/submissions/SUBMISSION-LINKS.md)

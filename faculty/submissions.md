@@ -1,17 +1,18 @@
-# Faculty submission console
+# Faculty submission console — S1–S7
 
-Student portal must **not** link this file’s faculty columns.
+Paste URLs in [../config/submission-links.json](../config/submission-links.json).
 
-Configure URLs in [../config/submission-links.json](../config/submission-links.json).
+| Stage | Weight | Due | Student form key | Faculty responses key | Event |
+| --- | ---: | --- | --- | --- | --- |
+| S1 SRS | 10 | 08 Sep 2026 | `s1_student` | `s1_faculty` | Present 10 Sep |
+| S2 Design | 15 | 06 Oct 2026 | `s2_student` | `s2_faculty` | ER 24 Sep · Present 08 Oct |
+| S3 Prototype | 20 | 20 Oct 2026 | `s3_student` | `s3_faculty` | Demo 22 Oct |
+| S4 Security | 15 | 30 Oct 2026 | `s4_student` | `s4_faculty` | Review 02 Nov |
+| S5 Optimization | 15 | 04 Nov 2026 | `s5_student` | `s5_faculty` | — |
+| S6 Final | 15 | 06 Nov 2026 | `s6_student` | `s6_faculty` | Viva 07–09 Nov |
+| S7 Contribution | 10 | 09 Nov 2026 | `s7_student` | `s7_faculty` | Continuous |
+| Cloud bonus | +5 | optional | `cloud_bonus_student` | `cloud_bonus_faculty` | — |
 
-| Milestone | Student form | Responses | Rubric | Presentation |
-| --- | --- | --- | --- | --- |
-| M0 Team | `[SUBMISSION_0_FORM_URL]` | `[FACULTY_0_RESPONSES_URL]` | Gate | — |
-| M1 Requirements | `[SUBMISSION_1_FORM_URL]` | `[FACULTY_1_RESPONSES_URL]` | 10 | 10 Sep 2026 |
-| M2 ER | `[SUBMISSION_2_FORM_URL]` | `[FACULTY_2_RESPONSES_URL]` | 15 | 24 Sep 2026 |
-| M3 NF | `[SUBMISSION_3_FORM_URL]` | `[FACULTY_3_RESPONSES_URL]` | 15 | 08 Oct 2026 |
-| M4 SQL | `[SUBMISSION_4_FORM_URL]` | `[FACULTY_4_RESPONSES_URL]` | 20 | 22 Oct 2026 |
-| M5 Tx/opt | `[SUBMISSION_5_FORM_URL]` | `[FACULTY_5_RESPONSES_URL]` | 15 | 02 Nov 2026 |
-| Final | `[SUBMISSION_FINAL_FORM_URL]` | `[FACULTY_FINAL_RESPONSES_URL]` | 15 | 07–09 Nov 2026 |
+Rubric: [../pbl/rubrics/faculty-rubric.md](../pbl/rubrics/faculty-rubric.md)
 
-How to wire: create a student Google/Microsoft Form and a linked sheet. Put the form URL in `*_student` and the sheet/edit URL in `*_faculty`. Set the form to close at 23:59 IST on the due date.
+Legacy `milestone_*` keys removed in PBL migration.

@@ -1,42 +1,46 @@
 # DBMS — Faculty Portal
 
-**CSL0311[T]**
+[HTML PBL dashboard](../portal/faculty.html)
 
-Everything students see, plus evaluation. If this GitHub repository is public, `faculty/` is **not** secret. [ACCESS-MODEL.md](../ACCESS-MODEL.md)
-
-[HTML version](../portal/faculty.html)
+Everything students see, plus evaluation. Public repo ≠ confidential faculty files. [ACCESS-MODEL.md](../ACCESS-MODEL.md)
 
 ---
 
-## Course
+## PBL administration
 
-- [README](../README.md)
-- [Curriculum](../curriculum-overview.md)
-- [Traceability](../SYLLABUS-TRACEABILITY.md)
-- [Student dashboard](../student/index.md)
-
-## PBL
-
-- [Project bank](../pbl/projects/project-bank.md)
-- [Team allocation](../pbl/projects/team-allocation.md) ← fill this
-- [Faculty rubric](../pbl/rubrics/faculty-rubric.md)
-- [Student rubric](../pbl/rubrics/student-rubric.md)
-- [Plagiarism review](evaluation/plagiarism-review.md)
-- [Viva bank](../assessments/viva.md)
+| Resource | Link |
+| --- | --- |
+| PBL home | [pbl/README.md](../pbl/README.md) |
+| Guidelines | [PBL-GUIDELINES.md](../PBL-GUIDELINES.md) |
+| Timeline | [pbl/TIMELINE.md](../pbl/TIMELINE.md) |
+| Project bank | [pbl/projects/project-bank.md](../pbl/projects/project-bank.md) |
+| Team allocation | [pbl/projects/team-allocation.md](../pbl/projects/team-allocation.md) |
+| Weekly checkpoints | [pbl/faculty/WEEKLY-CHECKPOINT.md](../pbl/faculty/WEEKLY-CHECKPOINT.md) |
+| Faculty rubric | [pbl/rubrics/faculty-rubric.md](../pbl/rubrics/faculty-rubric.md) |
+| CO mapping | [pbl/CO-MAPPING.md](../pbl/CO-MAPPING.md) |
 
 ## Submissions
 
-- [submissions.md](submissions.md) — student form **and** responses link per milestone
-- [Paste URLs](../config/submission-links.json)
+- [submissions.md](submissions.md) — `s1_student` / `s1_faculty` … `s7_*`
+- [config/submission-links.json](../config/submission-links.json)
 
-## Presentations
+## Stage presentations / reviews
 
-- [M1](presentations/m1-requirements.md) · [M2](presentations/m2-er-review.md) · [M3](presentations/m3-normalization.md) · [M4](presentations/m4-sql-demo.md) · [M5](presentations/m5-technical-review.md) · [Final](presentations/final-viva.md)
+| Stage | Event | Guide |
+| --- | --- | --- |
+| S1 | 10 Sep 2026 | [presentations/s1-requirements.md](presentations/s1-requirements.md) |
+| S2 | 24 Sep checkpoint · 08 Oct | [presentations/s2-design.md](presentations/s2-design.md) |
+| S3 | 22 Oct demo | [presentations/s3-prototype.md](presentations/s3-prototype.md) |
+| S4 | 02 Nov review | [presentations/s4-security.md](presentations/s4-security.md) |
+| S6 | 07–09 Nov final | [presentations/s6-final-viva.md](presentations/s6-final-viva.md) |
 
 ## Tracking
 
-- [Marks sheet](tracking/marks-sheet.md)
+- [Marks sheet](tracking/marks-sheet.md) (S1–S7 columns)
+- [Plagiarism review](evaluation/plagiarism-review.md)
+- [Viva bank](../assessments/viva.md)
+- [Answer keys](answer-keys/README.md)
 
-## Answer keys
+## Course
 
-- [answer-keys/README.md](answer-keys/README.md)
+- [Curriculum](../curriculum-overview.md) · [Student dashboard](../student/index.md)

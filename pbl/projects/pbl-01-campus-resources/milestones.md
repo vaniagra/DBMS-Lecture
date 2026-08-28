@@ -1,9 +1,15 @@
-# Milestones — emphasis for PBL 01
+﻿# Milestones — global S1–S7
 
-Follow [../../student/milestones.md](../../student/milestones.md).
+Follow the course spine: [../../student/milestones.md](../../student/milestones.md) · [../../TIMELINE.md](../../TIMELINE.md)
 
-| MS | Extra evidence |
+| Stage | Project-specific evidence |
 | --- | --- |
-| 2 | Overlap is a relationship constraint, not a UI warning |
-| 4 | Queries: conflict list, utilization %, unused equipment |
-| 5 | Two bookings for the same room: conflicting schedule + graph |
+| S1 | Stakeholder interview + SRS for this domain |
+| S2 | ER + NF + DDL enforcing project constraints |
+| S3 | Prototype + GitHub; Overlap exclusion on bookings; utilization % queries (S3/S5) |
+| S4 | Views/SP/triggers + RBAC + red-team |
+| S5 | EXPLAIN before/after on heavy queries |
+| S6 | Final report consolidates all stages |
+| S7 | CONTRIBUTIONS.md + peer ratings |
+
+Global rubric: [../../rubrics/student-rubric.md](../../rubrics/student-rubric.md) — do not use old M1–M5 weights.

@@ -1,19 +1,20 @@
-# Submission links
+# Submission links — S1–S7
 
-Paste URLs into [../../config/submission-links.json](../../config/submission-links.json).  
-Until then, buttons show **Form not configured**.
+Configure in [../../config/submission-links.json](../../config/submission-links.json).  
+Placeholders only until faculty pastes real URLs:
 
-Placeholders (not live links):
-
-| Milestone | Due | Student | Faculty responses |
+| Stage | Due | Student | Faculty responses |
 | --- | --- | --- | --- |
-| Team registration | 29 Aug | `[SUBMISSION_0_FORM_URL]` | `[FACULTY_0_RESPONSES_URL]` |
-| Requirement analysis | 08 Sep | `[SUBMISSION_1_FORM_URL]` | `[FACULTY_1_RESPONSES_URL]` |
-| ER design | 22 Sep | `[SUBMISSION_2_FORM_URL]` | `[FACULTY_2_RESPONSES_URL]` |
-| Normalization | 06 Oct | `[SUBMISSION_3_FORM_URL]` | `[FACULTY_3_RESPONSES_URL]` |
-| SQL implementation | 20 Oct | `[SUBMISSION_4_FORM_URL]` | `[FACULTY_4_RESPONSES_URL]` |
-| Transactions & optimization | 30 Oct | `[SUBMISSION_5_FORM_URL]` | `[FACULTY_5_RESPONSES_URL]` |
-| Final submission | 06 Nov | `[SUBMISSION_FINAL_FORM_URL]` | `[FACULTY_FINAL_RESPONSES_URL]` |
+| S1 SRS | 08 Sep | `[S1_STUDENT_FORM_URL]` | `[S1_FACULTY_RESPONSES_URL]` |
+| S2 Design | 06 Oct | `[S2_STUDENT_FORM_URL]` | `[S2_FACULTY_RESPONSES_URL]` |
+| S3 Prototype | 20 Oct | `[S3_STUDENT_FORM_URL]` | `[S3_FACULTY_RESPONSES_URL]` |
+| S4 Security | 30 Oct | `[S4_STUDENT_FORM_URL]` | `[S4_FACULTY_RESPONSES_URL]` |
+| S5 Optimization | 04 Nov | `[S5_STUDENT_FORM_URL]` | `[S5_FACULTY_RESPONSES_URL]` |
+| S6 Final | 06 Nov | `[S6_STUDENT_FORM_URL]` | `[S6_FACULTY_RESPONSES_URL]` |
+| S7 Contribution | 09 Nov | `[S7_STUDENT_FORM_URL]` | `[S7_FACULTY_RESPONSES_URL]` |
+| Cloud bonus (optional) | — | `[CLOUD_BONUS_STUDENT]` | `[CLOUD_BONUS_FACULTY]` |
 
-Student page: [../../student/submit.md](../../student/submit.md)  
-Faculty page: [../../faculty/submissions.md](../../faculty/submissions.md)
+Student portal: [../../portal/student.html](../../portal/student.html)  
+Faculty portal: [../../portal/faculty.html](../../portal/faculty.html)
+
+Legacy `milestone_*` keys replaced by `s1_student` … `s7_faculty`.

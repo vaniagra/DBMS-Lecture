@@ -1,7 +1,9 @@
-# Marks sheet template
+# Marks sheet — PBL S1–S7
 
-Keep filled copies **off** a public repo.
+Keep filled copies private if the repo is public.
 
-| Team | M1/10 | M2/15 | M3/15 | M4/20 | M5/15 | Final/15 | Viva/10 | Total/100 | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 01 | | | | | | | | | |
+| Team | Project | S1/10 | S2/15 | S3/20 | S4/15 | S5/15 | S6/15 | S7/10 | Total/100 | Cloud +5 | Notes |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| T01 | | | | | | | | | | | |
+
+Rubric: [../pbl/rubrics/faculty-rubric.md](../pbl/rubrics/faculty-rubric.md)

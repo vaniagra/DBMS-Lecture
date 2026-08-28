@@ -1,9 +1,7 @@
-# AI Usage Declaration
+# AI Usage Note / Declaration
 
-Copy into your team repo as `AI-USAGE-DECLARATION.md`. Required from Milestone 4; recommended from M2.
+Copy [../templates/ai-usage-note.md](../templates/ai-usage-note.md) into your team repo as `AI-USAGE-NOTE.md` (or `AI-USAGE-DECLARATION.md`).
 
-| Tool | Prompt (summary) | Purpose | Suggestion | Accepted? | Rejected because | Verified by |
-| --- | --- | --- | --- | --- | --- | --- |
-| | | | | | | |
+Required from **S2** onward; recommended from **S1**.
 
-Rule: [../../AI-USAGE-POLICY.md](../../AI-USAGE-POLICY.md)
+Policy: [../../AI-USAGE-POLICY.md](../../AI-USAGE-POLICY.md)

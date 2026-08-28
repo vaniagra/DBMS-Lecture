@@ -44,6 +44,34 @@ button, .btn {
   opacity: 0.45;
   cursor: not-allowed;
 }
+.btn-secondary {
+  margin-right: 0.5rem;
+}
+.btn-row {
+  margin-top: 0.75rem;
+}
+.btn-primary {
+  font-weight: bold;
+}
+.stage-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+.weight {
+  font-weight: normal;
+  color: #555;
+  font-size: 0.9rem;
+}
+.highlight {
+  border-left: 4px solid #1a4d8c;
+}
+.link-list {
+  line-height: 1.8;
+}
+code {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 0.9em;
+}
 table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
 th, td { border: 1px solid #ccc; padding: 0.4rem 0.5rem; text-align: left; }
 .note {

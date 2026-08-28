@@ -3,25 +3,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DBMS — Student</title>
+  <title>DBMS — PBL Student Dashboard</title>
   <link rel="stylesheet" href="css/portal.css">
 </head>
 <body data-mode="student">
   <header>
-    <h1>DBMS — Student portal</h1>
-    <p class="sub">CSL0311[T] · not the faculty console</p>
+    <h1>DBMS PBL Dashboard</h1>
+    <p class="sub">CSL0311[T] · Project-Based Learning</p>
     <nav>
       <a href="../student/index.md">Markdown dashboard</a>
+      <a href="../pbl/README.md">PBL home</a>
       <a href="../curriculum-overview.md">Lectures</a>
-      <a href="../PBL-GUIDELINES.md">PBL</a>
-      <a href="../pbl/rubrics/student-rubric.md">Rubric</a>
+      <a href="faculty.html">Faculty portal</a>
     </nav>
   </header>
   <main>
-    <p id="next-ms" class="card">Loading calendar…</p>
-    <p class="note">Status is computed from dates. Closing a form is a Google/Microsoft Forms setting, not this page.</p>
+    <section id="pbl-meta" class="card"></section>
+    <section id="stage-hero" class="card highlight"></section>
+    <p class="note">Status is computed from course-calendar.json. Forms close only when configured in Google/Microsoft Forms.</p>
     <p id="config-error" class="muted"></p>
-    <h2>Submit work</h2>
+
+    <h2>PBL overview</h2>
+    <p>Design &amp; develop a <strong>database-driven application</strong> — Web, CLI, or REST API. The database is the primary engineering artifact.</p>
+    <ul class="link-list">
+      <li><a href="../PBL-GUIDELINES.md">Student guidelines</a></li>
+      <li><a href="../pbl/TIMELINE.md">10-week timeline</a></li>
+      <li><a href="../pbl/projects/project-bank.md">Project bank</a></li>
+      <li><a href="../pbl/rubrics/student-rubric.md">Assessment rubric</a></li>
+      <li><a href="../pbl/templates/">Templates</a></li>
+      <li><a href="../pbl/student/SUBMISSION-INSTRUCTIONS.md">Submission instructions</a></li>
+      <li><a href="../pbl/student/SECURITY-AUDIT-GUIDE.md">Security red-team guide</a></li>
+      <li><a href="../AI-USAGE-POLICY.md">Academic integrity / AI</a></li>
+      <li><a href="../pbl/student/PRESENTATION-GUIDELINES.md">Presentation guidelines</a></li>
+      <li><a href="../student/FAQ.md">FAQ</a></li>
+    </ul>
+
+    <h2>My submissions (S1–S7)</h2>
     <div id="ms-list"></div>
   </main>
   <script src="js/portal.js"></script>

@@ -1,13 +1,15 @@
 # FAQ
 
-**Is this a lab course?** No. L-T-P is 2-0-0. Labs in this repo are practice.
+**Team size?** 4–5 students (PBL migration 2026).
 
-**Which SQL?** PostgreSQL. Mark PostgreSQL-only syntax.
+**Stages?** S1–S7 (100 marks). Old Milestone 0–5 names are retired — see [SUBMISSION-SCHEDULE.md](../SUBMISSION-SCHEDULE.md).
 
-**Can we use AI?** Yes, after you attempt, with a declaration. You must explain every query in viva.
+**Must we build a website?** You must integrate the database with a **Web app, CLI, or REST API** (S3). The database remains primary.
 
-**Can two teams pick the same PBL?** No, unless faculty writes a variant.
+**Which SQL?** PostgreSQL default; MySQL/Oracle with faculty approval.
 
-**Where are solutions?** Not on the student portal.
+**AI?** Allowed with [AI-USAGE-NOTE](../pbl/templates/ai-usage-note.md). You must explain everything in viva.
 
-**Does hiding faculty/ protect marks?** No. Read [ACCESS-MODEL.md](../ACCESS-MODEL.md).
+**Red-team audit?** Paired teams in S4 — [SECURITY-AUDIT-GUIDE](../pbl/student/SECURITY-AUDIT-GUIDE.md).
+
+**Are faculty folders secret?** No on a public GitHub repo. [ACCESS-MODEL.md](../ACCESS-MODEL.md)
